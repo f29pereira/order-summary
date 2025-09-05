@@ -1,0 +1,45 @@
+/*
+CSS Module for the AnnualPlan component
+*/
+
+/*Plan container*/
+.planCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue-50);
+  border-radius: 1.25rem;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/*Icon and Plan value container*/
+.planIconValueCont {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.planTitle {
+  color: var(--blue-950);
+  font-weight: 950;
+  font-size: 1rem;
+}
+
+.planValue {
+  color: var(--gray-600);
+  font-weight: 700;
+}
+
+/*Change Plan Link*/
+.planChange {
+  color: var(--blue-700);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.planChange:hover {
+  color: var(--hover);
+  text-decoration: none;
+}

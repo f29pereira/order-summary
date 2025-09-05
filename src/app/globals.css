@@ -11,6 +11,10 @@ Global CSS styles
   --blue-50: hsl(225, 100%, 98%);
   --gray-600: hsl(224, 23%, 55%);
   --blue-950: hsl(223, 47%, 23%);
+  /*box-shadow*/
+  --shadow: rgb(56 41 224 / 57%);
+  /*hover*/
+  --hover: rgb(118, 108, 241);
 }
 
 * {

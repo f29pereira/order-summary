@@ -30,3 +30,26 @@ CSS Module for the Card component
   text-align: center;
   padding: 0 1.6rem;
 }
+
+/*Cancel Order Link*/
+.cancelOrder {
+  margin-top: 2rem;
+  color: var(--gray-600);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.cancelOrder:hover {
+  color: var(--blue-950);
+}
+
+@media (min-width: 700px) {
+  .cardBody {
+    padding: 2rem 2rem;
+  }
+
+  .card {
+    max-width: 400px;
+    max-height: auto;
+  }
+}
