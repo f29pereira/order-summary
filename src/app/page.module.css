@@ -1,0 +1,18 @@
+/*
+CSS Module for the Home component
+*/
+.background {
+  background-image: url("../../public/images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.paddingX {
+  padding: 0 1rem;
+}
+
+@media (min-width: 700px) {
+  .background {
+    background-image: url("../../public/images/pattern-background-desktop.svg");
+    background-size: 100vw;
+  }
+}
