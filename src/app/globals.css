@@ -1,3 +1,57 @@
 /*
 Global CSS styles
 */
+:root {
+  /*Font*/
+  --font-red-hat-display: "Red Hat Display", sans-serif;
+  /*Primary*/
+  --blue-100: hsl(225, 100%, 94%);
+  --blue-700: hsl(245, 75%, 52%);
+  /*Neutral*/
+  --blue-50: hsl(225, 100%, 98%);
+  --gray-600: hsl(224, 23%, 55%);
+  --blue-950: hsl(223, 47%, 23%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--blue-100);
+  font-family: var(--font-red-hat-display);
+  -webkit-font-smoothing: antialiased; /*smooths the edges of fonts on Chrome, Safari, Edge*/
+  -moz-osx-font-smoothing: grayscale; /*smooths the edges of fonts Firefox on macOS*/
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}
+
+/*Fully centered flex row container*/
+.flex-full-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/*flex column container*/
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
